@@ -22,10 +22,10 @@ const state = reactive({
 });
 
 const backgroundImage = new Image();
-backgroundImage.src = '../../src/assets/map_image.png';
+backgroundImage.src = '@/map_image.png';
 
 const droneImage = new Image();
-droneImage.src = '../../src/assets/drone.svg';
+droneImage.src = '@/assets/drone.svg';
 
 let timePerStep = 160; 
 
