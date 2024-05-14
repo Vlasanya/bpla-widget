@@ -25,7 +25,7 @@ const backgroundImage = new Image();
 backgroundImage.src = '@/map_image.png';
 
 const droneImage = new Image();
-droneImage.src = '/assets/drone.svg';
+droneImage.src = '@/assets/drone.svg';
 
 let timePerStep = 160; 
 
